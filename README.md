@@ -13,6 +13,11 @@
 **아낌표!**는 사용자의 시급을 기준으로 이동 시간의 기회비용을 계산하여,  
 **“돈을 쓸 것인가, 시간을 쓸 것인가”**에 대한 데이터 기반 해답을 제공합니다.
 
+## 🌐 Live Demo
+
+실제 서비스 바로가기:  
+👉 https://akkimpyo-duwfcukkt-hyundoos-projects.vercel.app/
+
 ---
 
 ## 🚀 주요 기능 (Key Features)
@@ -34,6 +39,25 @@
 
 ---
 
+## 📘 사용 방법 (User Manual)
+
+아래 4단계로 빠르게 비교할 수 있습니다.
+
+1. **본인의 시급 입력**
+   - 상단 `나의 시간 가치(시급)`에 본인 시급을 입력합니다.
+
+2. **옵션 A 설정**
+   - 이동수단(A)을 선택하고, 목적지까지의 비용(원)과 소요 시간(분)을 입력합니다.
+
+3. **옵션 B 설정**
+   - 이동수단(B)을 선택하고, 목적지까지의 비용(원)과 소요 시간(분)을 입력합니다.
+
+4. **기회비용 비교 확인**
+   - 앱이 자동으로 두 선택지의 실질 총비용(지출 비용 + 시간 가치 비용)을 계산합니다.
+   - 하단 결과 카드에서 더 이득인 선택지와 차액을 확인합니다.
+
+---
+
 ## 🛠 기술 스택 (Tech Stack)
 
 - Frontend: React 19
@@ -49,7 +73,7 @@
 
 ```bash
 git clone(https://github.com/wjdengus98/akkimpyo.git)
-cd noa-opportunity-cost
+cd akkimpyo
 ```
 
 ### 2. 패키지 설치
@@ -90,7 +114,6 @@ npm run dev
 
 ```
 src
- ┣ assets        # 이미지 및 정적 파일
  ┣ App.jsx       # 메인 로직 및 UI
  ┣ main.jsx      # React 진입점
  ┣ index.css     # Tailwind 설정
