@@ -48,7 +48,7 @@
 ### 1. 저장소 클론
 
 ```bash
-git clone https://github.com/[본인아이디]/noa-opportunity-cost.git
+git clone(https://github.com/wjdengus98/akkimpyo.git)
 cd noa-opportunity-cost
 ```
 
