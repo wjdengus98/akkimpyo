@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* 크롬, 사파리, 엣지, 오페라 등에서 화살표 제거 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* 마찬가지로 파이어폭스에서도 화살표 제거 */
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
